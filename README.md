@@ -17,6 +17,7 @@ Salah satu project lanjutan dari [project-01](https://github.com/AzrianTidakTeng
 
 # Info file
 Beberapa timeline tentang apa pembuatan file
+* 12, Mei, 2024 - membuat fondasi
 
 ## Create file 
 25, Desember, 2023
