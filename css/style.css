@@ -1,21 +1,54 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-html, body{
+html,
+body {
     width: 100%;
     margin: 0%;
 }
 
-.f-1{
+.f-1 {
     width: 100%;
     height: 100vh;
     background-color: #222;
 }
 
-.f-1>nav>div>a, .f-1>nav{
+.f-1>nav {
+    background-color: rgba(26, 26, 26, 40%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.f-1>nav>div>a,
+.f-1>nav {
     font-size: 2rem;
     color: #fff;
 }
 
-.f-1>nav>div>.d-flex>*{
+.f-1>nav>div>.d-flex>* {
     padding: 0px 16px;
+}
+
+.f-1>.section {
+    position: relative;
+    top: 20;
+}
+
+.f-1>.section>.row {
+    max-width: 100%;
+}
+
+.f-1>.section>.row>.col-6>*>img {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.f-1>.section>.row>.col-6>.mask-1 {
+    mask-image: linear-gradient(to right, rgba(34, 34, 34, 75%), rgba(34, 34, 34, 5%));
+}
+
+.f-1>.section>.row>.col>.tittle {
+    color: #ebebeb;
+    font-size: 4.5rem;
 }
