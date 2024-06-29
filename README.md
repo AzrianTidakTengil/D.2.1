@@ -20,6 +20,7 @@ Salah satu project lanjutan dari [project-01](https://github.com/AzrianTidakTeng
 Beberapa timeline tentang apa pembuatan file
 * 12, Mei, 2024 - membuat fondasi
 * 3, juni, 2024 - ingat kalau ada project ini hehe + coba beta tipis tipis
+* 29, juni, 2024 - mengangkat tema adventure agar mendapatkan perasaan bahagia
 
 ## Create file 
 25, Desember, 2023
@@ -27,3 +28,5 @@ Beberapa timeline tentang apa pembuatan file
 ## Thank you for:
 * Image:
     * sun flower: [this-link](https://unsplash.com/photos/close-up-photography-of-yellow-sunflower-QcZrEkxGTro?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+* BGM:
+    * superstar(sharou)
