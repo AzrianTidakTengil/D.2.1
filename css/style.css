@@ -4,12 +4,20 @@ html,
 body {
     width: 100%;
     margin: 0%;
+    max-height: 100vh;
+}
+
+a{
+    text-decoration: none;
 }
 
 .f-1 {
+    display: block;
     width: 100%;
     height: 100vh;
-    background-color: #222;
+    background-size: cover;
+    background-image: url("/assets/frame-1.png");
+    color: #ececec;
 }
 
 .f-1>nav {
@@ -39,26 +47,18 @@ body {
 }
 
 .f-1>.section {
+    width: 100%;
     position: relative;
     top: 20;
 }
 
-.f-1>.section>.row {
-    max-width: 100%;
-}
-
-.f-1>.section>.row>.col-6>*>img {
-    object-fit: cover;
+.f-1>.section>.g1{
     height: 100vh;
 }
 
-.f-1>.section>.row>.col-6>.mask-1 {
-    mask-image: linear-gradient(to right, rgba(34, 34, 34, 75%), rgba(34, 34, 34, 5%));
-}
 
-.f-1>.section>.row>.col>.tittle {
-    color: #ebebeb;
-    font-size: 4.5rem;
+
+.f-1>.section>.g1>div>h1{
+    font-size: 5rem;
     font-weight: bold;
 }
-
