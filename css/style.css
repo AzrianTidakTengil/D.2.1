@@ -65,8 +65,9 @@ a{
     font-weight: bold;
 }
 
-.f-1>.section>.g1>div>button{
-    width: 360px;
+.f-1>.section>.g1>div{
+    padding: 8px 16px;
+    z-index: 99;
 }
 
 .f-1>.section>.background{
@@ -103,7 +104,7 @@ a{
     animation: clouds 12s infinite ease-in-out
 }
 
-/* animation */
+/* animation - awan */
 
 @keyframes clouds {
     0%{
@@ -129,10 +130,25 @@ a{
 }
 
 #transition{
-    width: 100%;
-    height: 100vh;
+    display: none;
+    width: 500px;
+    height: 500px;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
+    background-color: orange;
+    z-index: 9999;
+    border-radius: 50%;
+}
+
+/* animation - transisi */
+
+@keyframes transition {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(10);
+    }
 }
