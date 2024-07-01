@@ -11,7 +11,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="/js/script.js"></script>
   </head>
   <body>
     <!-- frame 1: Introduction -->
@@ -41,6 +41,11 @@
       </nav>
       <!-- section -->
       <div class="section">
+        <div class="background">
+          <div class="langit"></div>
+          <div class="awan"></div>
+          <div class="pandangan"></div>
+        </div>
         <div
           class="d-flex px-5 justify-content-center flex-column g1 align-items-end"
         >
@@ -48,12 +53,22 @@
             <h1>Adventure Flower</h1>
           </div>
           <div>
-            <a href="/" class=""
-              ><button class="btn btn-primary btn-lg">Play</button></a
+            <button
+              class="btn-primary"
+              style="font-size: 1.4rem; font-weight: 600"
+              onclick="Start()"
             >
+              Play
+            </button>
+            <script>
+              function Start() {
+                alert("wow");
+              }
+            </script>
           </div>
         </div>
       </div>
     </div>
+    <div id="transition"></div>
   </body>
 </html>
