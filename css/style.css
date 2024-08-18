@@ -76,13 +76,19 @@ a {
     max-height: 100vh;
 }
 
-.f-1>.section>.background>.langit{
-    background-image: url('/assets/background.jpeg');
+.f-1>.section>.background>.langit1 {
+    background-image: url('/assets//cloud1.png');
     background-size: cover;
     height: 100vh;
 }
 
-.f-1>.section>.background>.pandangan{
+.f-1>.section>.background>.langit {
+    background-image: url('/assets/background.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.f-1>.section>.background>.pandangan {
     position: absolute;
     top: 0;
     left: 0;
@@ -93,7 +99,7 @@ a {
     height: 100vh;
 }
 
-.f-1>.section>.background>.awan{
+.f-1>.section>.background>.awan {
     position: absolute;
     top: 0;
     left: 0;
@@ -101,31 +107,46 @@ a {
     background-image: url('/assets/cloud.png');
     background-size: cover;
     height: 100vh;
-    animation: clouds 12s infinite ease-in-out
+    animation: cloud1 12s infinite ease-in-out
 }
 
-/* animation - awan */
+.f-1>.section>.background>.awan1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url('/assets/cloud1.png');
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.25;
+}
 
-@keyframes clouds {
-    0%{
+/* animation - awans */
+
+@keyframes cloud1 {
+    0% {
         transform: translateX(0px);
-        opacity: 0.75;
+        opacity: 0.8;
     }
-    25%{
-        transform: translateX(-50px);
-        opacity: 1;
+
+    25% {
+        transform: translateX(-80px);
+        opacity: 0.3;
     }
-    50%{
+
+    50% {
         transform: translateX(0px);
-        opacity: 0.75;
+        opacity: 0.8;
     }
-    75%{
-        transform: translateX(50px);
-        opacity: 1;
+
+    75% {
+        transform: translateX(80px);
+        opacity: 0.3;
     }
-    100%{
+
+    100% {
         transform: translateX(0px);
-        opacity: 0.75;
+        opacity: 0.8;
     }
 }
 
