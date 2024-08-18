@@ -16,7 +16,7 @@ Salah satu project lanjutan dari [project-01](https://github.com/AzrianTidakTeng
 1. "flower Star: in the deep sea" =  v.D.2.1
 2. "Flower: Crash" = v.D.2.1 beta
 
-# Info file
+# Information file
 Beberapa timeline tentang apa pembuatan file
 * 12, Mei, 2024 - membuat fondasi
 * 3, juni, 2024 - ingat kalau ada project ini hehe + coba beta tipis tipis
