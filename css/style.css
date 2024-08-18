@@ -37,11 +37,11 @@ a {
     padding: 0px 16px;
 }
 
-.f-1>nav>div>a:hover{
+.f-1>nav>div>a:hover {
     color: #b1b1b1;
 }
 
-.f-1>nav>div>div>.nav-item:hover{
+.f-1>nav>div>div>.nav-item:hover {
     color: #b1b1b1;
 }
 
