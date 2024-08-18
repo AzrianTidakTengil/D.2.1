@@ -21,12 +21,14 @@ Beberapa timeline tentang apa pembuatan file
 * 12, Mei, 2024 - membuat fondasi
 * 3, juni, 2024 - ingat kalau ada project ini hehe + coba beta tipis tipis
 * 29, juni, 2024 - mengangkat tema adventure agar mendapatkan perasaan bahagia
+* 1, juni, 2024 - tahap percobaan frame 1 (berhasil)
+* 18, agustuts 2024 - merapihkan branch
 
 ## Create file 
 25, Desember, 2023
 
 ## Thank you for:
 * Image:
-    * sun flower: [this-link](https://unsplash.com/photos/close-up-photography-of-yellow-sunflower-QcZrEkxGTro?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash)
+    * -
 * BGM:
     * superstar(sharou)
