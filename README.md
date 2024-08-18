@@ -24,10 +24,10 @@ Beberapa timeline tentang apa pembuatan file
 * 1, juni, 2024 - tahap percobaan frame 1 (berhasil)
 * 18, agustus 2024 - merapihkan branch
 
-## Create file 
+## Created file 
 25, Desember, 2023
 
-## Thank you for:
+## Asset:
 * Image:
     * -
 * BGM:
