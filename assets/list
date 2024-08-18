@@ -1,0 +1,10 @@
+* f1: 
+    - Sky: 
+        - background.png
+    - Cloud: 
+        - cloud.png
+        - cloud1.png
+    - foreground:
+        - foreground.png
+    - example: 
+        - frame.png
