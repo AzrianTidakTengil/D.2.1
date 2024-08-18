@@ -2,8 +2,9 @@
 # List content
 * [Pengertian](#what-is-d2)
 * [Nama](#nama)
-* [Info file](#info-file)
-    * [Create](#create_file)
+* [Information file](#info-file)
+    * [Created file](#create_file)
+    * [Asset] (#Asset)
     
     
 
