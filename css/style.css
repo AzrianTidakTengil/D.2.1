@@ -51,7 +51,7 @@ a {
     top: 20;
 }
 
-.f-1>.section>.g1{
+.f-1>.section>.g1 {
     height: 100vh;
     position: absolute;
     top: 0;
@@ -60,12 +60,12 @@ a {
     display: block;
 }
 
-.f-1>.section>.g1>div>h1{
+.f-1>.section>.g1>div>h1 {
     font-size: 6.5rem;
     font-weight: bold;
 }
 
-.f-1>.section>.g1>div{
+.f-1>.section>.g1>div {
     padding: 8px 16px;
     z-index: 99;
 }
