@@ -13,8 +13,8 @@ Salah satu project lanjutan dari [project-01](https://github.com/AzrianTidakTeng
 
 # Name
 
-* "flower Star: in the deep sea" =  v.D.2.1
-* "Flower: Crash" = v.D.2.1 beta
+1. "flower Star: in the deep sea" =  v.D.2.1
+2. "Flower: Crash" = v.D.2.1 beta
 
 # Info file
 Beberapa timeline tentang apa pembuatan file
