@@ -1,10 +1,10 @@
 # **Description**
 
-- ### What problem does it solve? ###
+### What problem does it solve? ###
 
-- ### What features have been added or modified? ###
+### What features have been added or modified? ###
 
-- ### Include any relevant context or background information. ###
+### Include any relevant context or background information. ###
 
 ## **Related Issue**
 Link the issue that this pull request addresses, if applicable.
