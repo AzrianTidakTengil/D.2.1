@@ -12,8 +12,12 @@ function Start() {
     tra.style.alignItems = "center";
     f1.remove();
     const waiting = document.createElement("div", { id: "waiting" });
-    const waitingGift = document.createElement("div", {id: 'transition-gift'})
+    waiting.className = "fs-2 open-tra";
+    const waitingGift = document.createElement("div", {
+      id: "transition-gift",
+    });
+    waiting.innerHTML = "waiting";
     tra.appendChild(waitingGift);
-    tra.appendChild(waiting.appendChild(document.createTextNode("waiting")));
+    tra.appendChild(waiting);
   }, 4000);
 }
