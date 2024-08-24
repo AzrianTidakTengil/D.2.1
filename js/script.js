@@ -1,5 +1,5 @@
 function Start() {
-  const f1 = document.getElementById('f1')
+  const f1 = document.getElementById("f1");
   const tra = document.getElementById("transition");
   tra.style.display = "block";
   tra.style.animation = "transition 4s ease-in";
