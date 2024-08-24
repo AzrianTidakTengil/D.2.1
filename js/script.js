@@ -1,3 +1,7 @@
+const btnStart = document.getElementById("btn--start");
+
+btnStart.addEventListener("click", Start());
+
 function Start() {
   const f1 = document.getElementById("f1");
   const tra = document.getElementById("transition");
