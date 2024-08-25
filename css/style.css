@@ -26,8 +26,8 @@
     animation: fade infinite ease-in-out;
 }
 
-.open-tra {
-    animation: open-tra ease-in;
+.fade-in {
+    animation: open-tra .2s ease-in;
 }
 
 html,
