@@ -12,7 +12,7 @@ function Start() {
     tra.style.alignItems = "center";
     f1.remove();
     const waiting = document.createElement("div", { id: "waiting" });
-    waiting.className = "fs-2 open-tra";
+    waiting.className = "fs-2 fade-in";
     const waitingGift = document.createElement("div", {
       id: "transition-gift",
     });
