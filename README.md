@@ -18,12 +18,7 @@ Salah satu project lanjutan dari [project-01](https://github.com/AzrianTidakTeng
 2. "Flower: Crash" = v.D.2.1 beta
 
 # Information file
-Beberapa timeline tentang apa pembuatan file
-* 12, Mei, 2024 - membuat fondasi
-* 3, juni, 2024 - ingat kalau ada project ini hehe + coba beta tipis tipis
-* 29, juni, 2024 - mengangkat tema adventure agar mendapatkan perasaan bahagia
-* 1, juni, 2024 - tahap percobaan frame 1 (berhasil)
-* 18, agustus 2024 - merapihkan branch
+* [timeline and tasks](https://docs.google.com/spreadsheets/d/1yEn6Sw-r4oO1P7EroUIkJSZUvbcQAohrRHUNxiSBY9A/edit?usp=sharing)
 
 ## Created file 
 25, Desember, 2023
