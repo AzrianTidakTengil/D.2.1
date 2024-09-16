@@ -6,12 +6,86 @@
     <title>Flower: Crash</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/setting.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
   </head>
   <body>
+    <!-- bgm autoplay -->
+    <audio src="assets/bgm-1.mp3" autoplay hidden id="bgm"></audio>
+
+    <!-- modal popup -->
+    <div
+      class="modal fade"
+      id="modalPopup"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-bs-focus="true"
+      data-bs-backdrop="static"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Settings</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+              onclick="showModal('close')"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class=".col-3">
+                <h2 class="fs-5">Volume</h2>
+              </div>
+              <div class="col-auto">
+                <input
+                  class="range-volume"
+                  type="range"
+                  max="1"
+                  min="0"
+                  step="0.01"
+                  value="0.3"
+                  id="range"
+                  onchange="slideChange()"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+              onclick="showModal('close')"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="showModal('reset')"
+            >
+              Reset
+            </button>
+            <button
+              type="button"
+              class="btn btn-success"
+              onclick="saveChanges()"
+              data-bs-dismiss="modal"
+            >
+              Save changes
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- frame 1: Introduction -->
     <div id="f1" class="f-1">
       <!-- navbar: desktop -->
@@ -19,7 +93,12 @@
         <div class="container-fluid px-5">
           <a href="/" class="navbar-brand">Hikoyu</a>
           <div class="d-flex">
-            <div class="nav-item">
+            <div
+              class="nav-item"
+              data-bs-toggle="modal"
+              data-bs-target="#modalPopup"
+              onclick="showModal('open')"
+            >
               <i
                 class="bi bi-sliders"
                 data-bs-toggle="tooltip"
@@ -60,11 +139,12 @@
     <div
       class="d-flex flex-column justify-content-center align-items-center slide"
     >
-    <div id="transition"></div>
+      <div id="transition"></div>
     </div>
 
-  <!-- source javascript -->
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/script.js"></script>
+    <!-- source javascript -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/configuration.js"></script>
   </body>
 </html>

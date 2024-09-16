@@ -1,0 +1,22 @@
+.range-volume {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 50%;
+}
+
+.range-volume::-webkit-slider-runnable-track {
+    background-color: #c86b15;
+    height: 1.5px;
+    border-radius: 50%;
+}
+
+.range-volume::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none;
+    background-color: #F4C430;
+    margin-top: -7.5px;
+}
