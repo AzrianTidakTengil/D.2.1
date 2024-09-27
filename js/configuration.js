@@ -1,5 +1,5 @@
 var modal = false;
-let defaultVolum = 0.3;
+let defaultVolum = 0.2;
 var newChange = 0;
 var isChange = false;
 
@@ -11,27 +11,18 @@ bgmControll.volume = defaultVolum;
 function showModal(status) {
   if (status == "open") {
     modal = true;
-  } else if (status == 'reset') {
+  } else if (status == "reset") {
     isChange = false;
     newChange = 0;
     bgmControll.volume = defaultVolum;
     volumRange.value = defaultVolum;
-  } else {
-    modal = false;
-    bgmControll.volume = defaultVolum;
-    volumRange.value = isChange ? newChange : defaultVolum;
   }
 }
 
 function saveChanges() {
-  if (modal) {
-    bgmControll.volume = volumRange.value;
-    newChange = volumRange.value;
-    isChange = true;
-  } else {
-    volumRange.value = defaultVolum;
-    bgmControll.volume = defaultVolum;
-  }
+  bgmControll.volume = volumRange.value;
+  newChange = volumRange.value;
+  isChange = true;
 }
 
 function slideChange() {
