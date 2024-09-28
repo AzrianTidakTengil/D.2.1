@@ -29,16 +29,18 @@
       data-bs-backdrop="static"
     >
       <div class="modal-dialog">
-        <div class="modal-content">
+        <div class="modal-content modal-setting">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="exampleModalLabel">Settings</h1>
             <button
               type="button"
-              class="btn-close"
+              class="btn fw-bolder fs-4 text-white"
               data-bs-dismiss="modal"
               aria-label="Close"
               onclick="showModal('close')"
-            ></button>
+            >
+              <i class="bi bi-x-lg"></i>
+            </button>
           </div>
           <div class="modal-body">
             <div class="container-fluid">
@@ -59,7 +61,7 @@
               </div>
             </div>
           </div>
-          <div class="modal-footer">
+          <div class="modal-footer d-flex justify-content-between align-items-center">
             <button
               type="button"
               class="btn btn-secondary"
@@ -68,21 +70,23 @@
             >
               Close
             </button>
-            <button
-              type="button"
-              class="btn btn-primary"
-              onclick="showModal('reset')"
-            >
-              Reset
-            </button>
-            <button
-              type="button"
-              class="btn btn-success"
-              onclick="saveChanges()"
-              data-bs-dismiss="modal"
-            >
-              Save changes
-            </button>
+            <div>
+              <button
+                type="button"
+                class="btn btn-primary me-2"
+                onclick="showModal('reset')"
+              >
+                Reset
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                onclick="saveChanges()"
+                data-bs-dismiss="modal"
+              >
+                Save changes
+              </button>
+            </div>
           </div>
         </div>
       </div>
