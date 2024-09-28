@@ -1,3 +1,27 @@
+.modal-setting {
+    background-color: rgba(26, 26, 26, 40%);
+    color: #fff;
+    backdrop-filter: blur(5px);
+    border: 0.5px solid rgba(26, 26, 26, 20%);
+}
+
+.modal-setting > .modal-header {
+    background-color: rgba(26, 26, 26, 60%);
+    border-bottom: 1px solid rgba(26, 26, 26, 60%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-setting > .modal-body {
+    padding: 2.5rem;
+}
+
+.modal-setting > .modal-footer {
+    background-color: rgba(26, 26, 26, 60%);
+    border-top: 1px solid rgba(26, 26, 26, 60%);
+}
+
 .range-volume {
     width: 100%;
     appearance: none;
@@ -7,7 +31,7 @@
 
 .range-volume::-webkit-slider-runnable-track {
     background-color: #c86b15;
-    height: 1.5px;
+    height: 2px;
     border-radius: 50%;
 }
 
